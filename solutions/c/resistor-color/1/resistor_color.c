@@ -1,0 +1,12 @@
+#include "resistor_color.h"
+#include<stdlib.h>
+
+resistor_band_t color_code(int color) {
+    return color;
+}
+resistor_band_t * colors() {
+    resistor_band_t * color_list = (resistor_band_t *) malloc(sizeof(resistor_band_t)*9);
+    for (int i = 0; i < 9; i++)
+        color_list[i] = i;
+    return color_list;
+}
