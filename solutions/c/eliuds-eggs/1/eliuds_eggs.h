@@ -1,0 +1,10 @@
+#include <stdlib.h>
+#ifndef ELIUDS_EGGS_H
+#define ELIUDS_EGGS_H
+
+
+unsigned int egg_count(unsigned int n);
+
+
+
+#endif
